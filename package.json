@@ -1,0 +1,27 @@
+{
+  "name": "apinodefastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx watch src/index.ts",
+    "multi": "tsx watch src/multi.ts",
+    "baileys": "tsx watch src/multibaileys.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "fastify": "^4.17.0"
+
+
+
+  }
+}
